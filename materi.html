@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Roadmap materi kuliah Sistem Informasi semester 1." />
+    <title>Materi | SI Semester 1 Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-page="materi">
+    <div id="appNav"></div>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow"><i class="bi bi-journal-code"></i> Sistem belajar semester 1</span>
+          <h1>Belajar lebih terarah, bukan sekadar membaca materi.</h1>
+          <p>Ikuti alur paham konsep, tulis ulang contoh, latihan, recall, debugging, lalu cek pemahaman sebelum lanjut.</p>
+        </div>
+      </section>
+
+      <section class="section-block study-system-section">
+        <div class="container">
+          <div class="section-heading heading-row">
+            <div>
+              <span class="eyebrow">Metode belajar</span>
+              <h2>Siklus belajar 30 menit untuk setiap materi.</h2>
+              <p>Gunakan pola yang sama di semua mata kuliah agar belajar lebih cepat tetapi tetap masuk.</p>
+            </div>
+            <div class="roadmap-summary">
+              <span>5</span>
+              <small>langkah inti</small>
+            </div>
+          </div>
+          <div class="study-cycle-grid">
+            <article class="study-cycle-card">
+              <i class="bi bi-compass"></i>
+              <strong>1. Orientasi</strong>
+              <span>Baca tujuan, masalah, dan analogi agar tahu kenapa materi ini penting.</span>
+            </article>
+            <article class="study-cycle-card">
+              <i class="bi bi-diagram-3"></i>
+              <strong>2. Pahami</strong>
+              <span>Ambil 3 konsep inti dan hubungkan dengan contoh kampus atau sistem informasi.</span>
+            </article>
+            <article class="study-cycle-card">
+              <i class="bi bi-pencil-square"></i>
+              <strong>3. Praktik</strong>
+              <span>Kerjakan latihan kecil, quiz singkat, dan debugging konsep untuk menguji pemahaman.</span>
+            </article>
+            <article class="study-cycle-card">
+              <i class="bi bi-bug"></i>
+              <strong>4. Koreksi</strong>
+              <span>Bandingkan jawaban dengan hint, pembahasan, dan kesalahan umum agar tahu bagian yang perlu diperbaiki.</span>
+            </article>
+            <article class="study-cycle-card">
+              <i class="bi bi-arrow-repeat"></i>
+              <strong>5. Recall</strong>
+              <span>Tutup materi, jelaskan ulang dengan bahasa sendiri, lalu cek checklist paham.</span>
+            </article>
+          </div>
+          <div class="study-recommendation" id="studyRecommendation"></div>
+        </div>
+      </section>
+
+      <section class="section-block weekly-roadmap-section">
+        <div class="container">
+          <div class="section-heading heading-row">
+            <div>
+              <span class="eyebrow">Roadmap 6 minggu</span>
+              <h2>Belajar bertahap dari pondasi kuliah sampai project kecil.</h2>
+              <p>Setiap minggu cukup selesaikan satu kelompok fokus, lalu pakai quiz, recall, dan debugging sebagai pengunci.</p>
+            </div>
+            <div class="roadmap-summary">
+              <span>30</span>
+              <small>materi utama</small>
+            </div>
+          </div>
+          <div class="weekly-roadmap-grid">
+            <article class="weekly-roadmap-item">
+              <span>Minggu 1</span>
+              <strong>Orientasi SI dan etika kampus</strong>
+              <p>Pancasila, etika digital, dan cara melihat teknologi sebagai keputusan yang berdampak.</p>
+            </article>
+            <article class="weekly-roadmap-item">
+              <span>Minggu 2</span>
+              <strong>Bahasa akademik</strong>
+              <p>Reading, grammar, email, presentasi, vocabulary, dan paraphrasing teks teknologi.</p>
+            </article>
+            <article class="weekly-roadmap-item">
+              <span>Minggu 3</span>
+              <strong>Logika solusi</strong>
+              <p>Truth table, IPO, pseudocode, flowchart, array, pencarian, tracing, dan sorting sederhana.</p>
+            </article>
+            <article class="weekly-roadmap-item">
+              <span>Minggu 4</span>
+              <strong>Sistem teknologi</strong>
+              <p>Hardware, software, jaringan, data, sistem informasi, database, cloud, dan keamanan dasar.</p>
+            </article>
+            <article class="weekly-roadmap-item">
+              <span>Minggu 5</span>
+              <strong>Entrepreneurship</strong>
+              <p>Problem orientation, customer discovery, BMC, eksperimen, MVP, biaya, dan pitch.</p>
+            </article>
+            <article class="weekly-roadmap-item">
+              <span>Minggu 6</span>
+              <strong>Praktikum pemrograman</strong>
+              <p>Variabel, branch, loop, function, array, CRUD, DOM, localStorage, dan debugging.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block compact-section alt-section" id="materi">
+        <div class="container">
+          <div class="section-heading heading-row">
+            <div>
+              <span class="eyebrow">Daftar materi</span>
+              <h2>Pilih mata kuliah, lalu selesaikan materi secara berurutan.</h2>
+            </div>
+            <div class="roadmap-summary">
+              <span id="roadmapCompleted">0/30</span>
+              <small>materi selesai</small>
+            </div>
+          </div>
+          <div class="course-roadmap" id="lessonGrid"></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="appFooter"></div>
+    <div id="appToast"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/progress.js"></script>
+    <script src="assets/js/layout.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
