@@ -46,9 +46,15 @@
                   <button class="editor-tab" type="button" data-editor-tab="css">style.css</button>
                   <button class="editor-tab" type="button" data-editor-tab="js">app.js</button>
                 </div>
-                <textarea class="code-input" id="htmlInput" data-editor-input="html" spellcheck="false"></textarea>
-                <textarea class="code-input d-none" id="cssInput" data-editor-input="css" spellcheck="false"></textarea>
-                <textarea class="code-input d-none" id="jsInput" data-editor-input="js" spellcheck="false"></textarea>
+                <div class="html-editor-wrap" id="htmlEditorWrap" data-editor-input="html">
+                  <textarea class="code-input" id="htmlInput" spellcheck="false"></textarea>
+                </div>
+                <div class="css-editor-wrap d-none" id="cssEditorWrap" data-editor-input="css">
+                  <textarea class="code-input" id="cssInput" spellcheck="false"></textarea>
+                </div>
+                <div class="js-editor-wrap d-none" id="jsEditorWrap" data-editor-input="js">
+                  <textarea class="code-input" id="jsInput" spellcheck="false"></textarea>
+                </div>
               </div>
               <div class="preview-pane">
                 <div class="preview-label"><i class="bi bi-eye"></i> Preview</div>
